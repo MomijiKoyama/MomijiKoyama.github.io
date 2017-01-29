@@ -49,6 +49,9 @@
             }
             function viStop(){
                 vitaminC.gotoAndPlay('stop');
+
+                // トゥイーン
+                createjs.Tween.get(iron).wait(1000).call(irWalk).to({x:500},2000).call(irStop);
             }
 
             var irSprite = new createjs.SpriteSheet(ironSprite);
@@ -56,8 +59,7 @@
             stage.addChild(iron);
             iron.y = 300;
 
-            // トゥイーン
-            createjs.Tween.get(iron).wait(1000).call(irWalk).to({x:500},2000).call(irStop);
+          
 
             function irWalk(){
                 iron.gotoAndPlay('Walk');
