@@ -51,6 +51,13 @@
                 vitaminC.gotoAndPlay('stop');
             }
 
+            function irWalk(){
+                iron.gotoAndPlay('Walk');
+            }
+            function irStop(){
+                iron.gotoAndPlay('stop');
+            }
+
             var irSprite = new createjs.SpriteSheet(ironSprite);
             var iron = new createjs.Sprite(irSprite,'stand');
             stage.addChild(iron);
