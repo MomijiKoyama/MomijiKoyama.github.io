@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Porta</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/sublimeSlideshow.css">
+    <link rel="stylesheet" href="css/loginpass.css">
+</head>
+<body>
+
+<div id="loginarea">
+  <h1><img src="img/img04.png" alt="Porta"></h1>
+  <p class="subtittle">持ち歩くポートフォリオ</p>
+  <input type="text" id="logininput" placeholder="パスワード" name="" value="">
+  <div id="login"><a href="">ログイン</a></div>
+  <p class="subnav"><a href="">＞　Portaとは？</a></p>
+  <p class="subnav"><a href="">＞　登録せずに見る</a></p>
+
+</div>
+
+
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/jquery.sublimeSlideshow.js"></script>
+<script type="text/javascript">
+$(function(){
+    $.sublime_slideshow({
+        src:[
+        {url:"img/img01.jpg"},
+        {url:"img/img02.jpg"},
+        {url:"img/img03.jpg"}
+        ]
+    });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+/* common ---------------------- */
+
+
+body{
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size:15px;
+	line-height:1.5;
+}
+a:link,a:visited{
+	color:#999999;
+	text-decoration: none;
+}
+a:hover,a:active{
+	color:#333333;
+	text-decoration: none;
+}
+.inner{
+	width: 1140px;
+	margin: 0 auto; /* 中央寄せ */
+}
+@keyframes crossfade {
+  0% {
+    opacity: 0;
+
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*ログイン*/
+html,body{
+	height: 100%;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#loginarea{
+	width: 363px;
+	height: 361px;
+	background-color: rgba(255,255,255,0.7);
+}
+
+#loginarea h1{
+	width: 180px;
+	margin: 49px auto 12px;
+}
+
+#loginarea h1 img{
+	width: 180px;
+	height: auto;
+}
+
+.subtittle{
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 35px;
+}
+
+#logup{
+	width: 300px;
+	height: 40px;
+	margin: 0 auto 10px;
+}
+ #logup a{
+	 width: 300px;
+	 height: 40px;
+	 display: block;
+	 background-color: #917357;
+	 color : #ffffff;
+	 font-size: 15px;
+	 font-weight: bold;
+	 text-align: center;
+	 line-height: 2.8;
+ }
+
+ #login{
+ 	width: 300px;
+ 	height: 40px;
+ 	margin: 0 auto 10px;
+ }
+  #login a{
+ 	 width: 300px;
+ 	 height: 40px;
+ 	 display: block;
+ 	 background-color: #6d6d6d;
+ 	 color : #ffffff;
+ 	 font-size: 15px;
+ 	 font-weight: bold;
+ 	 text-align: center;
+ 	 line-height: 2.8;
+  }
+
+.subnav{
+	text-indent: 130px;
+}
+
+.subnav a{
+	font-size: 12px;
+	color: #453526;
+}
