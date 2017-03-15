@@ -81,12 +81,12 @@ footer{
 	 line-height: 2.8;
  }
 
- #logup{
+ #login{
  	width: 300px;
  	height: 40px;
  	margin: 0 auto 10px;
  }
-  #logup a{
+  #login a{
  	 width: 300px;
  	 height: 40px;
  	 display: block;
