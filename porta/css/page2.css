@@ -158,17 +158,17 @@ header h1 img{
 	color: #9c0000;
 }
 
-#p-editing{
+#p-new{
  width: 300px;
  height: 40px;
  margin: 15px auto 10px;
 }
 
- #p-editing a{
+ #p-new a{
 	width: 300px;
 	height: 40px;
 	display: block;
-	background-color: #a59e96;
+	background-color: #8f6565;
 	color : #ffffff;
 	font-size: 15px;
 	font-weight: bold;
@@ -177,6 +177,26 @@ header h1 img{
 	margin-bottom: 10px;
 	margin-left: -5px;
  }
+
+ #p-edit{
+  width: 300px;
+  height: 40px;
+  margin: 15px auto 10px;
+ }
+
+  #p-edit a{
+ 	width: 300px;
+ 	height: 40px;
+ 	display: block;
+ 	background-color: #a59e96;
+ 	color : #ffffff;
+ 	font-size: 15px;
+ 	font-weight: bold;
+ 	text-align: center;
+ 	line-height: 2.8;
+ 	margin-bottom: 10px;
+ 	margin-left: -5px;
+  }
 
 #suggestion{
 	margin-bottom: 36px;
