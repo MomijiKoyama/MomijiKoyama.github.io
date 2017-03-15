@@ -48,7 +48,7 @@ header h1 img{
 }
 
 #headerSearch{
-	width: 558px;
+	width: 500px;
 	height: 35px;
 	/*background-color: #ececec;*/
 	border: 0;
@@ -59,13 +59,13 @@ header h1 img{
 	border-radius: 5px;
 }
 
-#login{
+#mypage{
 	width: 85px;
 	height: 35px;
 	margin: 0 12px 0 auto;
 }
 
-#login a{
+#mypage a{
 	width: 85px;
 	height: 35px;
 	font-size: 13px;
@@ -77,13 +77,13 @@ header h1 img{
 	line-height: 2.8;
 }
 
-#logup{
-	width: 55px;
+#logout{
+	width: 85px;
 	height: 35px;
 }
 
-#logup a{
-	width: 55px;
+#logout a{
+	width: 85px;
 	height: 35px;
 	font-size: 13px;
 	background-color: #79746f;
@@ -127,6 +127,50 @@ header h1 img{
 #side{
 	width: 329px;
 }
+
+#my{
+	width: 290px;
+	height: 182px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+#my img{
+	width: 80px;
+	height: 80px;
+}
+
+#mymain{
+	display: flex;
+}
+
+.mytittle{
+	margin-left: 25px;
+	margin-top: 12px;
+	line-height: 2;
+}
+
+#p-editing{
+ width: 300px;
+ height: 40px;
+ margin: 15px auto 10px;
+}
+
+ #p-editing a{
+	width: 300px;
+	height: 40px;
+	display: block;
+	background-color: #a59e96;
+	color : #ffffff;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 2.8;
+	margin-bottom: 10px;
+	margin-left: -5px;
+ }
 
 #suggestion{
 	margin-bottom: 36px;
