@@ -263,3 +263,15 @@ header h1 img{
 .cardViews{
 	font-size: 11px;
 }
+
+#number ul{
+	width: 300px;
+	margin: -80px auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#number ul li{
+	color: #838383;
+}
