@@ -115,10 +115,7 @@ header h1 img{
 	color: #FFFFFF;
 }
 
-/*contents*/
-#contents{
-	width: 1176px;
-	display: flex;
-	justify-content: space-between;
-	margin: 30px auto;
+#info{
+	justify-content: space-around;
+	align-items: center;
 }
